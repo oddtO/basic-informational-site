@@ -1,5 +1,5 @@
-import http from "node:http";
-import fs from "node:fs/promises";
+import * as http from "node:http";
+import * as fs from "node:fs/promises";
 
 const PAGES = ["./index", "./about", "./contact-me"];
 
